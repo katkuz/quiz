@@ -1,0 +1,202 @@
+[
+	{
+		"question": "Vilken funktion används för att skriva ut saker på skärmen?",
+		"answer": "print"
+	},
+	{
+		"question": "Vad heter nyckelordet för att göra en loop i Python?",
+		"answer": "for"
+	},
+	{
+		"question": "Hur tar man fram längden på listan i variabeln fruits?",
+		"answer": "list(fruits)"
+	},
+	{
+		"question": "fråga4",
+		"answer": "svar4"
+	},
+	{
+		"question": "fråga5",
+		"answer": "svar5"
+	},
+	{
+		"question": "fråga6",
+		"answer": "svar6"
+	},
+	{
+		"question": "fråga7",
+		"answer": "svar7"
+	},
+	{
+		"question": "fråga8",
+		"answer": "svar8"
+	},
+	{
+		"question": "fråga9",
+		"answer": "svar9"
+	},
+	{
+		"question": "fråga10",
+		"answer": "svar10"
+	},
+	{
+		"question": "fråga11",
+		"answer": "svar11"
+	},
+	{
+		"question": "fråga12",
+		"answer": "svar12"
+	},
+	{
+		"question": "fråga13",
+		"answer": "svar13"
+	},
+	{
+		"question": "fråga14",
+		"answer": "svar14"
+	},
+	{
+		"question": "fråga15",
+		"answer": "svar15"
+	},
+	{
+		"question": "fråga16",
+		"answer": "svar16"
+	},
+	{
+		"question": "fråga17",
+		"answer": "svar17"
+	},
+	{
+		"question": "fråga18",
+		"answer": "svar18"
+	},
+	{
+		"question": "fråga19",
+		"answer": "svar19"
+	},
+	{
+		"question": "fråga20",
+		"answer": "svar20"
+	},
+	{
+		"question": "fråga21",
+		"answer": "svar21"
+	},
+	{
+		"question": "fråga22",
+		"answer": "svar22"
+	},
+	{
+		"question": "fråga23",
+		"answer": "svar23"
+	},
+	{
+		"question": "fråga24",
+		"answer": "svar24"
+	},
+	{
+		"question": "fråga25",
+		"answer": "svar25"
+	},
+	{
+		"question": "fråga26",
+		"answer": "svar26"
+	},
+	{
+		"question": "fråga27",
+		"answer": "svar27"
+	},
+	{
+		"question": "fråga28",
+		"answer": "svar28"
+	},
+	{
+		"question": "fråga29",
+		"answer": "svar29"
+	},
+	{
+		"question": "fråga30",
+		"answer": "svar30"
+	},
+	{
+		"question": "fråga31",
+		"answer": "svar31"
+	},
+	{
+		"question": "fråga32",
+		"answer": "svar32"
+	},
+	{
+		"question": "fråga33",
+		"answer": "svar33"
+	},
+	{
+		"question": "fråga34",
+		"answer": "svar34"
+	},
+	{
+		"question": "fråga35",
+		"answer": "svar35"
+	},
+	{
+		"question": "fråga36",
+		"answer": "svar36"
+	},
+	{
+		"question": "fråga37",
+		"answer": "svar37"
+	},
+	{
+		"question": "fråga38",
+		"answer": "svar38"
+	},
+	{
+		"question": "fråga39",
+		"answer": "svar39"
+	},
+	{
+		"question": "fråga40",
+		"answer": "svar40"
+	},
+	{
+		"question": "fråga41",
+		"answer": "svar41"
+	},
+	{
+		"question": "fråga42",
+		"answer": "svar42"
+	},
+	{
+		"question": "fråga43",
+		"answer": "svar43"
+	},
+	{
+		"question": "fråga44",
+		"answer": "svar44"
+	},
+	{
+		"question": "fråga45",
+		"answer": "svar45"
+	},
+	{
+		"question": "fråga46",
+		"answer": "svar46"
+	},
+	{
+		"question": "fråga47",
+		"answer": "svar47"
+	},
+	{
+		"question": "fråga48",
+		"answer": "svar48"
+	},
+	{
+		"question": "fråga49",
+		"answer": "svar49"
+	},
+	{
+		"question": "fråga50",
+		"answer": "svar50"
+	}
+]
