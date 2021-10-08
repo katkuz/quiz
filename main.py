@@ -26,13 +26,29 @@ for x in range(0, 10):
         index = random.randint(0, questionsCount - 1)
         if index not in askedQuestions:
             break
-    print(f"Question #{x+1}: {questionsAndAnswers[index]['question']}")
+    print(f"Fråga #{x+1}: {questionsAndAnswers[index]['question']}")
+
+    option_number = 1
+    correct_options = list()
+    shuffled_answers = questionsAndAnswers[index]['options']
+    random.shuffle(shuffled_answers)
+    for option in shuffled_answers:
+        print(f"{option_number}: {option['text']}")
+        if option['correct']:
+            correct_options.append(option_number)
+        option_number +=1
+
     askedQuestions.append(index)
-    startTime = int(time.time())            # get unix time before question
-    answer = input("Ditt svar: ").strip()   # strip in order to avoid "space" problem
-    finishTime = int(time.time())           # get unix time after question
+    startTime = int(time.time())                    # get unix time before question
+
+    try:
+        answer = int(input("Ditt svar: ").strip()) # strip in order to avoid "space" problem
+    except:
+        answer = 0                                  #if not number set to 0 to simulate incorrect answer
+
+    finishTime = int(time.time())                   # get unix time after question
     answerTime = finishTime - startTime
-    if answer == questionsAndAnswers[index]['answer']:
+    if answer in correct_options:
         currentPoint = int
         totalCorrectAnswer += 1
         if answerTime <= 10:

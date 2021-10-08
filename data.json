@@ -1,202 +1,852 @@
 [
 	{
 		"question": "Vilken funktion används för att skriva ut saker på skärmen?",
-		"answer": "print"
+		"options":[
+		{
+			"text" : "print",
+			"correct" : true
+		},
+		{
+			"text" : "list",
+			"correct" : false
+		},
+		{
+			"text" : "while",
+			"correct" : false
+		}
+		]
 	},
 	{
 		"question": "Vad heter nyckelordet för att göra en loop i Python?",
-		"answer": "for"
+		"options":[
+		{
+			"text" : "for",
+			"correct" : true
+		},
+		{
+			"text" : "list",
+			"correct" : false
+		},
+		{
+			"text" : "while",
+			"correct" : false
+		}
+		]
 	},
 	{
 		"question": "Hur tar man fram längden på listan i variabeln fruits?",
-		"answer": "list(fruits)"
+		"options":[
+		{
+			"text" : "list(fruits)",
+			"correct" : true
+		},
+		{
+			"text" : "list",
+			"correct" : false
+		},
+		{
+			"text" : "while",
+			"correct" : false
+		}
+		]
 	},
 	{
 		"question": "fråga4",
-		"answer": "svar4"
+		"options":[
+		{
+			"text" : "rätt svar",
+			"correct" : true
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		}
+		]
 	},
 	{
 		"question": "fråga5",
-		"answer": "svar5"
+		"options":[
+		{
+			"text" : "rätt svar",
+			"correct" : true
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		}
+		]
 	},
 	{
 		"question": "fråga6",
-		"answer": "svar6"
+		"options":[
+		{
+			"text" : "rätt svar",
+			"correct" : true
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		}
+		]
 	},
 	{
 		"question": "fråga7",
-		"answer": "svar7"
+		"options":[
+		{
+			"text" : "rätt svar",
+			"correct" : true
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		}
+		]
 	},
 	{
 		"question": "fråga8",
-		"answer": "svar8"
+		"options":[
+		{
+			"text" : "rätt svar",
+			"correct" : true
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		}
+		]
 	},
 	{
 		"question": "fråga9",
-		"answer": "svar9"
+		"options":[
+		{
+			"text" : "rätt svar",
+			"correct" : true
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		}
+		]
 	},
 	{
 		"question": "fråga10",
-		"answer": "svar10"
+		"options":[
+		{
+			"text" : "rätt svar",
+			"correct" : true
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		}
+		]
 	},
 	{
 		"question": "fråga11",
-		"answer": "svar11"
+		"options":[
+		{
+			"text" : "rätt svar",
+			"correct" : true
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		}
+		]
 	},
 	{
 		"question": "fråga12",
-		"answer": "svar12"
+		"options":[
+		{
+			"text" : "rätt svar",
+			"correct" : true
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		}
+		]
 	},
 	{
 		"question": "fråga13",
-		"answer": "svar13"
+		"options":[
+		{
+			"text" : "rätt svar",
+			"correct" : true
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		}
+		]
 	},
 	{
 		"question": "fråga14",
-		"answer": "svar14"
+		"options":[
+		{
+			"text" : "rätt svar",
+			"correct" : true
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		}
+		]
 	},
 	{
 		"question": "fråga15",
-		"answer": "svar15"
+		"options":[
+		{
+			"text" : "rätt svar",
+			"correct" : true
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		}
+		]
 	},
 	{
 		"question": "fråga16",
-		"answer": "svar16"
+		"options":[
+		{
+			"text" : "rätt svar",
+			"correct" : true
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		}
+		]
 	},
 	{
 		"question": "fråga17",
-		"answer": "svar17"
+		"options":[
+		{
+			"text" : "rätt svar",
+			"correct" : true
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		}
+		]
 	},
 	{
 		"question": "fråga18",
-		"answer": "svar18"
+		"options":[
+		{
+			"text" : "rätt svar",
+			"correct" : true
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		}
+		]
 	},
 	{
 		"question": "fråga19",
-		"answer": "svar19"
+		"options":[
+		{
+			"text" : "rätt svar",
+			"correct" : true
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		}
+		]
 	},
 	{
 		"question": "fråga20",
-		"answer": "svar20"
+		"options":[
+		{
+			"text" : "rätt svar",
+			"correct" : true
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		}
+		]
 	},
 	{
 		"question": "fråga21",
-		"answer": "svar21"
+		"options":[
+		{
+			"text" : "rätt svar",
+			"correct" : true
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		}
+		]
 	},
 	{
 		"question": "fråga22",
-		"answer": "svar22"
+		"options":[
+		{
+			"text" : "rätt svar",
+			"correct" : true
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		}
+		]
 	},
 	{
 		"question": "fråga23",
-		"answer": "svar23"
+		"options":[
+		{
+			"text" : "rätt svar",
+			"correct" : true
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		}
+		]
 	},
 	{
 		"question": "fråga24",
-		"answer": "svar24"
+		"options":[
+		{
+			"text" : "rätt svar",
+			"correct" : true
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		}
+		]
 	},
 	{
 		"question": "fråga25",
-		"answer": "svar25"
+		"options":[
+		{
+			"text" : "rätt svar",
+			"correct" : true
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		}
+		]
 	},
 	{
 		"question": "fråga26",
-		"answer": "svar26"
+		"options":[
+		{
+			"text" : "rätt svar",
+			"correct" : true
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		}
+		]
 	},
 	{
 		"question": "fråga27",
-		"answer": "svar27"
+		"options":[
+		{
+			"text" : "rätt svar",
+			"correct" : true
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		}
+		]
 	},
 	{
 		"question": "fråga28",
-		"answer": "svar28"
+		"options":[
+		{
+			"text" : "rätt svar",
+			"correct" : true
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		}
+		]
 	},
 	{
 		"question": "fråga29",
-		"answer": "svar29"
+		"options":[
+		{
+			"text" : "rätt svar",
+			"correct" : true
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		}
+		]
 	},
 	{
 		"question": "fråga30",
-		"answer": "svar30"
+		"options":[
+		{
+			"text" : "rätt svar",
+			"correct" : true
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		}
+		]
 	},
 	{
 		"question": "fråga31",
-		"answer": "svar31"
+		"options":[
+		{
+			"text" : "rätt svar",
+			"correct" : true
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		}
+		]
 	},
 	{
 		"question": "fråga32",
-		"answer": "svar32"
+		"options":[
+		{
+			"text" : "rätt svar",
+			"correct" : true
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		}
+		]
 	},
 	{
 		"question": "fråga33",
-		"answer": "svar33"
+		"options":[
+		{
+			"text" : "rätt svar",
+			"correct" : true
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		}
+		]
 	},
 	{
 		"question": "fråga34",
-		"answer": "svar34"
+		"options":[
+		{
+			"text" : "rätt svar",
+			"correct" : true
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		}
+		]
 	},
 	{
 		"question": "fråga35",
-		"answer": "svar35"
+		"options":[
+		{
+			"text" : "rätt svar",
+			"correct" : true
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		}
+		]
 	},
 	{
 		"question": "fråga36",
-		"answer": "svar36"
+		"options":[
+		{
+			"text" : "rätt svar",
+			"correct" : true
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		}
+		]
 	},
 	{
 		"question": "fråga37",
-		"answer": "svar37"
+		"options":[
+		{
+			"text" : "rätt svar",
+			"correct" : true
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		}
+		]
 	},
 	{
 		"question": "fråga38",
-		"answer": "svar38"
+		"options":[
+		{
+			"text" : "rätt svar",
+			"correct" : true
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		}
+		]
 	},
 	{
 		"question": "fråga39",
-		"answer": "svar39"
+		"options":[
+		{
+			"text" : "rätt svar",
+			"correct" : true
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		}
+		]
 	},
 	{
 		"question": "fråga40",
-		"answer": "svar40"
+		"options":[
+		{
+			"text" : "rätt svar",
+			"correct" : true
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		}
+		]
 	},
 	{
 		"question": "fråga41",
-		"answer": "svar41"
+		"options":[
+		{
+			"text" : "rätt svar",
+			"correct" : true
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		}
+		]
 	},
 	{
 		"question": "fråga42",
-		"answer": "svar42"
+		"options":[
+		{
+			"text" : "rätt svar",
+			"correct" : true
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		}
+		]
 	},
 	{
 		"question": "fråga43",
-		"answer": "svar43"
+		"options":[
+		{
+			"text" : "rätt svar",
+			"correct" : true
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		}
+		]
 	},
 	{
 		"question": "fråga44",
-		"answer": "svar44"
+		"options":[
+		{
+			"text" : "rätt svar",
+			"correct" : true
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		}
+		]
 	},
 	{
 		"question": "fråga45",
-		"answer": "svar45"
+		"options":[
+		{
+			"text" : "rätt svar",
+			"correct" : true
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		}
+		]
 	},
 	{
 		"question": "fråga46",
-		"answer": "svar46"
+		"options":[
+		{
+			"text" : "rätt svar",
+			"correct" : true
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		}
+		]
 	},
 	{
 		"question": "fråga47",
-		"answer": "svar47"
+		"options":[
+		{
+			"text" : "rätt svar",
+			"correct" : true
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		}
+		]
 	},
 	{
 		"question": "fråga48",
-		"answer": "svar48"
+		"options":[
+		{
+			"text" : "rätt svar",
+			"correct" : true
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		}
+		]
 	},
 	{
 		"question": "fråga49",
-		"answer": "svar49"
+		"options":[
+		{
+			"text" : "rätt svar",
+			"correct" : true
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		}
+		]
 	},
 	{
 		"question": "fråga50",
-		"answer": "svar50"
+		"options":[
+		{
+			"text" : "rätt svar",
+			"correct" : true
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		},
+		{
+			"text" : "fel svar",
+			"correct" : false
+		}
+		]
 	}
 ]
