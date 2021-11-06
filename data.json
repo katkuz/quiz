@@ -2,51 +2,61 @@
 	"questions": [
 		{
 			"id": "1",
-			"prompt": "Vilken funktion används för att skriva ut saker på skärmen?",
+			"prompt": "Vilken funktion använder du för att skriva ut text i terminalen?",
+			"times_asked": "2184",
+			"times_correct": "1945",
 			"answers": [
 				{
 					"answer": "print",
 					"correct": true
 				},
 				{
-					"answer": "list",
+					"answer": "input",
 					"correct": false
 				},
 				{
-					"answer": "while",
-					"correct": true
+					"answer": "import",
+					"correct": false
+				},
+				{
+					"answer": "sys.exit",
+					"correct": false
 				}
 			]
 		},
 		{
 			"id": "2",
-			"prompt": "Vad heter nyckelordet för att göra en loop i Python?",
+			"prompt": "Hur tar man fram längden på listan i variabeln \"fruits\"?",
+			"times_asked": "391",
+			"times_correct": "88",
 			"answers": [
 				{
-					"answer": "for",
-					"correct": true
-				},
-				{
-					"answer": "list",
+					"answer": "for _ in range(10)",
 					"correct": false
 				},
 				{
-					"answer": "while",
+					"answer": "input(fruits)",
+					"correct": false
+				},
+				{
+					"answer": "len(fruits)",
 					"correct": true
 				}
 			]
 		},
 		{
 			"id": "3",
-			"prompt": "Hur tar man fram längden på listan i variabeln fruits?",
+			"prompt": "Vad heter nyckelordet för att göra en loop i python?",
+			"times_asked": "358",
+			"times_correct": "171",
 			"answers": [
 				{
-					"answer": "list(fruits)",
-					"correct": true
+					"answer": "in",
+					"correct": false
 				},
 				{
-					"answer": "list",
-					"correct": false
+					"answer": "for",
+					"correct": true
 				},
 				{
 					"answer": "while",
@@ -56,846 +66,176 @@
 		},
 		{
 			"id": "4",
-			"prompt": "fråga4",
+			"prompt": "Vilken metod används för att sortera en lista?",
+			"times_asked": "302",
+			"times_correct": "118",
 			"answers": [
 				{
-					"answer": "rätt svar",
-					"correct": true
-				},
-				{
-					"answer": "fel svar",
+					"answer": "sorts()",
 					"correct": false
 				},
 				{
-					"answer": "fel svar",
+					"answer": "sort()",
 					"correct": true
+				},
+				{
+					"answer": "sorter()",
+					"correct": false
 				}
 			]
 		},
 		{
 			"id": "5",
-			"prompt": "fråga5",
+			"prompt": "Vad heter Pythons första utvecklare (aka grundare, BDFL)?",
+			"times_asked": "317",
+			"times_correct": "116",
 			"answers": [
 				{
-					"answer": "rätt svar",
-					"correct": true
-				},
-				{
-					"answer": "fel svar",
+					"answer": "Lance Henricsen",
 					"correct": false
 				},
 				{
-					"answer": "fel svar",
+					"answer": "Guido van Rossum",
 					"correct": true
+				},
+				{
+					"answer": "Bill Clinton",
+					"correct": false
+				},
+				{
+					"answer": "Steve Freeman",
+					"correct": false
+				},
+				{
+					"answer": "Bill Gates",
+					"correct": false
 				}
 			]
 		},
 		{
 			"id": "6",
-			"prompt": "fråga6",
+			"prompt": "Kan jag skriva kod i en JSON-fil?",
+			"times_asked": "352",
+			"times_correct": "123",
 			"answers": [
 				{
-					"answer": "rätt svar",
-					"correct": true
-				},
-				{
-					"answer": "fel svar",
+					"answer": "Ja",
 					"correct": false
 				},
 				{
-					"answer": "fel svar",
+					"answer": "Det finns en app för det",
+					"correct": false
+				},
+				{
+					"answer": "Nej",
 					"correct": true
 				}
 			]
 		},
 		{
 			"id": "7",
-			"prompt": "fråga7",
+			"prompt": "Hur delar man en textsträng på nyradstecken, så att man får ut en lista med alla rader i strängen?",
+			"times_asked": "319",
+			"times_correct": "113",
 			"answers": [
 				{
-					"answer": "rätt svar",
-					"correct": true
-				},
-				{
-					"answer": "fel svar",
+					"answer": "read_text()",
 					"correct": false
 				},
 				{
-					"answer": "fel svar",
+					"answer": "splitlines()",
 					"correct": true
+				},
+				{
+					"answer": "split()",
+					"correct": false
 				}
 			]
 		},
 		{
 			"id": "8",
-			"prompt": "fråga8",
+			"prompt": "Hur jämnför man att något är lika?",
+			"times_asked": "319",
+			"times_correct": "73",
 			"answers": [
 				{
-					"answer": "rätt svar",
-					"correct": true
-				},
-				{
-					"answer": "fel svar",
+					"answer": "=",
 					"correct": false
 				},
 				{
-					"answer": "fel svar",
+					"answer": "for",
+					"correct": false
+				},
+				{
+					"answer": "==",
 					"correct": true
+				},
+				{
+					"answer": "+=",
+					"correct": false
 				}
 			]
 		},
 		{
 			"id": "9",
-			"prompt": "fråga9",
+			"prompt": "Vad heter datatypen för heltal i Python?",
+			"times_asked": "332",
+			"times_correct": "193",
 			"answers": [
 				{
-					"answer": "rätt svar",
+					"answer": "Integer",
 					"correct": true
 				},
 				{
-					"answer": "fel svar",
+					"answer": "Double",
 					"correct": false
 				},
 				{
-					"answer": "fel svar",
-					"correct": true
+					"answer": "Float",
+					"correct": false
 				}
 			]
 		},
 		{
 			"id": "10",
-			"prompt": "fråga10",
+			"prompt": "Vad är en int?",
+			"times_asked": "324",
+			"times_correct": "80",
 			"answers": [
 				{
-					"answer": "rätt svar",
-					"correct": true
-				},
-				{
-					"answer": "fel svar",
+					"answer": "loop",
 					"correct": false
 				},
 				{
-					"answer": "fel svar",
+					"answer": "input",
+					"correct": false
+				},
+				{
+					"answer": "Decimaltal",
+					"correct": false
+				},
+				{
+					"answer": "Heltal",
 					"correct": true
 				}
 			]
 		},
 		{
 			"id": "11",
-			"prompt": "fråga11",
+			"prompt": "Hur tar jag bort whitespace från början och slutet av en sträng?",
+			"times_asked": "313",
+			"times_correct": "210",
 			"answers": [
 				{
-					"answer": "rätt svar",
+					"answer": "strip()",
 					"correct": true
 				},
 				{
-					"answer": "fel svar",
+					"answer": "split",
 					"correct": false
 				},
 				{
-					"answer": "fel svar",
-					"correct": false
-				}
-			]
-		},
-		{
-			"id": "12",
-			"prompt": "fråga12",
-			"answers": [
-				{
-					"answer": "rätt svar",
-					"correct": true
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				}
-			]
-		},
-		{
-			"id": "13",
-			"prompt": "fråga13",
-			"answers": [
-				{
-					"answer": "rätt svar",
-					"correct": true
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				}
-			]
-		},
-		{
-			"id": "14",
-			"prompt": "fråga14",
-			"answers": [
-				{
-					"answer": "rätt svar",
-					"correct": true
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				}
-			]
-		},
-		{
-			"id": "15",
-			"prompt": "fråga15",
-			"answers": [
-				{
-					"answer": "rätt svar",
-					"correct": true
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				}
-			]
-		},
-		{
-			"id": "16",
-			"prompt": "fråga16",
-			"answers": [
-				{
-					"answer": "rätt svar",
-					"correct": true
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				}
-			]
-		},
-		{
-			"id": "17",
-			"prompt": "fråga17",
-			"answers": [
-				{
-					"answer": "rätt svar",
-					"correct": true
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				}
-			]
-		},
-		{
-			"id": "18",
-			"prompt": "fråga18",
-			"answers": [
-				{
-					"answer": "rätt svar",
-					"correct": true
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				}
-			]
-		},
-		{
-			"id": "19",
-			"prompt": "fråga19",
-			"answers": [
-				{
-					"answer": "rätt svar",
-					"correct": true
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				}
-			]
-		},
-		{
-			"id": "20",
-			"prompt": "fråga20",
-			"answers": [
-				{
-					"answer": "rätt svar",
-					"correct": true
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				}
-			]
-		},
-		{
-			"id": "21",
-			"prompt": "fråga21",
-			"answers": [
-				{
-					"answer": "rätt svar",
-					"correct": true
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				}
-			]
-		},
-		{
-			"id": "22",
-			"prompt": "fråga22",
-			"answers": [
-				{
-					"answer": "rätt svar",
-					"correct": true
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				}
-			]
-		},
-		{
-			"id": "23",
-			"prompt": "fråga23",
-			"answers": [
-				{
-					"answer": "rätt svar",
-					"correct": true
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				}
-			]
-		},
-		{
-			"id": "24",
-			"prompt": "fråga24",
-			"answers": [
-				{
-					"answer": "rätt svar",
-					"correct": true
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				}
-			]
-		},
-		{
-			"id": "25",
-			"prompt": "fråga25",
-			"answers": [
-				{
-					"answer": "rätt svar",
-					"correct": true
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				}
-			]
-		},
-		{
-			"id": "26",
-			"prompt": "fråga26",
-			"answers": [
-				{
-					"answer": "rätt svar",
-					"correct": true
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				}
-			]
-		},
-		{
-			"id": "27",
-			"prompt": "fråga27",
-			"answers": [
-				{
-					"answer": "rätt svar",
-					"correct": true
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				}
-			]
-		},
-		{
-			"id": "28",
-			"prompt": "fråga28",
-			"answers": [
-				{
-					"answer": "rätt svar",
-					"correct": true
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				}
-			]
-		},
-		{
-			"id": "29",
-			"prompt": "fråga29",
-			"answers": [
-				{
-					"answer": "rätt svar",
-					"correct": true
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				}
-			]
-		},
-		{
-			"id": "30",
-			"prompt": "fråga30",
-			"answers": [
-				{
-					"answer": "rätt svar",
-					"correct": true
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				}
-			]
-		},
-		{
-			"id": "31",
-			"prompt": "fråga31",
-			"answers": [
-				{
-					"answer": "rätt svar",
-					"correct": true
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				}
-			]
-		},
-		{
-			"id": "32",
-			"prompt": "fråga32",
-			"answers": [
-				{
-					"answer": "rätt svar",
-					"correct": true
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				}
-			]
-		},
-		{
-			"id": "33",
-			"prompt": "fråga33",
-			"answers": [
-				{
-					"answer": "rätt svar",
-					"correct": true
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				}
-			]
-		},
-		{
-			"id": "34",
-			"prompt": "fråga34",
-			"answers": [
-				{
-					"answer": "rätt svar",
-					"correct": true
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				}
-			]
-		},
-		{
-			"id": "35",
-			"prompt": "fråga35",
-			"answers": [
-				{
-					"answer": "rätt svar",
-					"correct": true
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				}
-			]
-		},
-		{
-			"id": "36",
-			"prompt": "fråga36",
-			"answers": [
-				{
-					"answer": "rätt svar",
-					"correct": true
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				}
-			]
-		},
-		{
-			"id": "37",
-			"prompt": "fråga37",
-			"answers": [
-				{
-					"answer": "rätt svar",
-					"correct": true
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				}
-			]
-		},
-		{
-			"id": "38",
-			"prompt": "fråga38",
-			"answers": [
-				{
-					"answer": "rätt svar",
-					"correct": true
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				}
-			]
-		},
-		{
-			"id": "39",
-			"prompt": "fråga39",
-			"answers": [
-				{
-					"answer": "rätt svar",
-					"correct": true
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				}
-			]
-		},
-		{
-			"id": "40",
-			"prompt": "fråga40",
-			"answers": [
-				{
-					"answer": "rätt svar",
-					"correct": true
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				}
-			]
-		},
-		{
-			"id": "41",
-			"prompt": "fråga41",
-			"answers": [
-				{
-					"answer": "rätt svar",
-					"correct": true
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				}
-			]
-		},
-		{
-			"id": "42",
-			"prompt": "fråga42",
-			"answers": [
-				{
-					"answer": "rätt svar",
-					"correct": true
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				}
-			]
-		},
-		{
-			"id": "43",
-			"prompt": "fråga43",
-			"answers": [
-				{
-					"answer": "rätt svar",
-					"correct": true
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				}
-			]
-		},
-		{
-			"id": "44",
-			"prompt": "fråga44",
-			"answers": [
-				{
-					"answer": "rätt svar",
-					"correct": true
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				}
-			]
-		},
-		{
-			"id": "45",
-			"prompt": "fråga45",
-			"answers": [
-				{
-					"answer": "rätt svar",
-					"correct": true
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				}
-			]
-		},
-		{
-			"id": "46",
-			"prompt": "fråga46",
-			"answers": [
-				{
-					"answer": "rätt svar",
-					"correct": true
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				}
-			]
-		},
-		{
-			"id": "47",
-			"prompt": "fråga47",
-			"answers": [
-				{
-					"answer": "rätt svar",
-					"correct": true
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				}
-			]
-		},
-		{
-			"id": "48",
-			"prompt": "fråga48",
-			"answers": [
-				{
-					"answer": "rätt svar",
-					"correct": true
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				}
-			]
-		},
-		{
-			"id": "49",
-			"prompt": "fråga49",
-			"answers": [
-				{
-					"answer": "rätt svar",
-					"correct": true
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				}
-			]
-		},
-		{
-			"id": "50",
-			"prompt": "fråga50",
-			"answers": [
-				{
-					"answer": "rätt svar",
-					"correct": true
-				},
-				{
-					"answer": "fel svar",
-					"correct": false
-				},
-				{
-					"answer": "fel svar",
+					"answer": "spagat()",
 					"correct": false
 				}
 			]
