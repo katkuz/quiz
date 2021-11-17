@@ -3,12 +3,14 @@ def get_user_answers():
     Multiple options answer expected to be separated by comma  """
     given_answers = list()
     try:
-        given_answer_txt = input("Ditt svar: ").strip()  # strip in order to avoid "space" problem
+        given_answer_txt = input("Ditt svar: ").strip()
+        # strip in order to avoid "space" problem
         if "," in given_answer_txt:
             given_answers = [int(x.strip()) for x in
-                             given_answer_txt.split(',')]  # strip in order to avoid "space" problem
+                             given_answer_txt.split(',')]
+            # strip in order to avoid "space" problem
         else:
             given_answers.append(int(given_answer_txt))
-    except:
+    except ValueError:
         pass
     return given_answers

@@ -7,7 +7,6 @@ def is_all_answers_correct(correct_answers_list, given_answers):
     for correct_answer in correct_answers_list:
         if correct_answer not in given_answers:
             return False
-            break
     if len(correct_answers_list) != len(given_answers):
         return False
     return True
@@ -38,7 +37,9 @@ def calculate_correct_percent(times_correct, times_asked):
 
 def count_points(answer_time):
     """ Return awarded points based on how much time elapsed """
-    if answer_time <= 10:
+    if answer_time < 0:
+        return 0
+    elif answer_time <= 10:
         return 5
     elif answer_time <= 20:
         return 4
@@ -62,20 +63,24 @@ def get_next_question_index(questions_and_answers, asked_questions):
 
 
 def answers_check(
-        correct_answers_list, answer_time, total_points, total_correct_answers, given_answers,
-        shuffled_answers, questions_and_answers, current_question_index, wrong_answered_questions):
-    """ Check if given answer(s) are correct, send statistics, print info and calculate total points for the user """
+        correct_answers_list, answer_time, total_points,
+        total_correct_answers, given_answers,
+        shuffled_answers, questions_and_answers,
+        current_question_index, wrong_answered_questions):
+    """ Check if given answer(s) are correct, send statistics,
+    print info and calculate total points for the user """
     from printing import correct_answer, incorrect_answer
     if is_all_answers_correct(correct_answers_list, given_answers):
         total_correct_answers += 1
         current_point = count_points(answer_time)
         total_points += current_point
-
-        send_statistics(questions_and_answers[current_question_index]['id'], True)
+        send_statistics(
+            questions_and_answers[current_question_index]['id'], True)
         correct_answer(answer_time, current_point, total_points)
     else:
         wrong_answered_questions.append(current_question_index)
-        send_statistics(questions_and_answers[current_question_index]['id'], False)
+        send_statistics(
+            questions_and_answers[current_question_index]['id'], False)
         incorrect_answer(shuffled_answers, total_points)
     return total_points, total_correct_answers
 
