@@ -76,9 +76,9 @@ def print_laureate(laureate, prize_money, prize_todays_money):
     except ValueError:
         pass
     if 'knownName' in laureate.keys():
-        print(f"{laureate['knownName']['en']}: ", end='')
+        print(f"  {laureate['knownName']['en']}: ", end='')
     if 'orgName' in laureate.keys():
-        print(f"{laureate['orgName']['en']}: ", end='')
+        print(f"  {laureate['orgName']['en']}: ", end='')
     if portion_number != 0:
         print(f"{int(portion_number * int(prize_money))} / {int(portion_number * int(prize_todays_money))} SEK", end='')
     print(f" {laureate['motivation']['en']}")
